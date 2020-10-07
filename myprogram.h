@@ -8,6 +8,5 @@ int reversed_number(int number);
 int is_prime(int number);
 int count_primes(int start, int end);
 char alphabet_index(int index);
-void str_conct(char * output, const char * s1, const char * s2);
 
 #endif // MYPROGRAM_H

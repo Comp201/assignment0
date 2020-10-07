@@ -56,10 +56,3 @@ char alphabet_index(int index)
 	return 'A';
 }
 
-
-void str_conct(char * output, const char * s1, const char * s2)
-{
-	output[0] = 0;
-	//TODO: return s1+s2 in the output
-	//e.g., ABC and DEF should become ABCDEF
-}

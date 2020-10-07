@@ -7,10 +7,10 @@
 int main()
 {
 	int n, res;
-	fprintf(stderr, "Which task to run? (1-8) ");
+	fprintf(stderr, "Which task to run? (1-7) ");
 	scanf("%d", &n);
 
-	if (n < 1 || n > 8)
+	if (n < 1 || n > 7)
 	{
 		fprintf(stderr, "Invalid task number.\n");
 		return -1;
@@ -71,16 +71,6 @@ int main()
 		scanf("%d", &n);
 		printf("%c\n", alphabet_index(n));
 	}
-	else if (n == 8)
-	{
-		char input1[1024], input2[1024], output[1024];
-		fprintf(stderr, "Enter the string: ");
-		scanf("%s", input1);
-		scanf("%s", input2);
-		str_conct(output, input1, input2);
-		printf("%s\n", output);
-	}
-
 
 	wrapper();
 	return 0;
